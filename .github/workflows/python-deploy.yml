@@ -1,0 +1,6 @@
+# Create an action that updates the change log on merge to stable, that append the git commits
+
+# Create a prerelease tag
+# Main - 1.0.0
+# unstable - 1.0.0-beta
+# develop - 1.0.0-alpha
