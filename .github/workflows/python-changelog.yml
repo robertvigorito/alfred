@@ -9,9 +9,11 @@ jobs:
       # Checks-out your repository
       - uses: actions/checkout@v2
       - name: Run Changelog CI
-        uses: saadmk11/changelog-ci@v0.7.0
+        uses: wgid-vfx/changelog-ci@develop
         with:
           changelog_filename: docs/CHANGELOG.md
+          config_file: .github/support/changelog-ci-config.json
+
         # Add this if you are using it on a private repository
         # Or if you have turned on commenting through the config file.
         env:

@@ -4,3 +4,5 @@
 # Main - 1.0.0
 # unstable - 1.0.0-beta
 # develop - 1.0.0-alpha
+on:
+  - pull_request
